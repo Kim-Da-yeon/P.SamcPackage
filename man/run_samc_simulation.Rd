@@ -2,7 +2,7 @@
 % Please edit documentation in R/samc_functions.R
 \name{run_samc_simulation}
 \alias{run_samc_simulation}
-\title{Run SAMC Simulation using Python Code via reticulate}
+\title{Run SAMC Simulation using Python Code}
 \usage{
 run_samc_simulation()
 }
@@ -10,6 +10,6 @@ run_samc_simulation()
 run_simulation()의 실행 결과를 반환합니다.
 }
 \description{
-이 함수는 inst/extdata 폴더에 저장된 SAMC.py 파이썬 코드를 불러와 실행합니다.
-SAMC.py 파일 내에는 run_simulation() 함수가 정의되어 있어야 합니다.
+이 함수는 inst/extdata 폴더에 저장된 SAMC.py 파일과 Q.csv 파일을 불러와
+reticulate를 통해 run_simulation() 함수를 실행합니다.
 }
